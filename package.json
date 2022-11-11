@@ -1,0 +1,25 @@
+{
+    "name": "G-Notify-v2@api",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "@google-cloud/storage": "^5.18.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "exceljs": "^4.3.0",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.2.1",
+        "googleapis": "^39.2.0",
+        "handlebars": "^4.7.7",
+        "mimetext": "^2.0.6",
+        "mongoose": "^6.0.5",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.3",
+        "puppeteer": "^10.4.0",
+        "read-excel-file": "^5.2.25",
+        "uuid": "^8.3.2"
+    }
+}
