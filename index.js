@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express')
 const logger = require('morgan')
 const mongoose = require('mongoose')
@@ -8,7 +9,6 @@ const emailRouter = require('./routes/emails.routes')
 const trackerRouter = require('./routes/tracker.routes')
 const fileManagerRouter = require('./routes/fileHandler.routes')
 
-require('dotenv').config()
 
 const app = express()
 
